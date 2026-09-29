@@ -1,0 +1,55 @@
+.app-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 200px));
+  gap: 20px;
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.detalle {
+  width: 300px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 24px;
+  background: #141414;
+  color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.detalle-poster {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.detalle-vacio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  text-align: center;
+}
+
+nav button {
+  background: #141414;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  transform: translateY(-2px);
+}
